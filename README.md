@@ -2,11 +2,11 @@
 ###Pre-processing of Wikipedia Articles for Naive Bayesian Profession Classification
 
 **School:** Brandeis University  
-**Course:** COSI 129a: Operating Systems  
-**Professor:** Liuba Shrira  
+**Course:** COSI 129a: Introduction to Big Data Analysis  
+**Professors:** Marcus Verhagen, James Pustejovsky, Pengyu Hong, Liuba Shrira  
 **Head TA:** Tuan Do
 **Semester:** Fall 2016
 
-**DESCRIPTION**: The basic task of this assignment is to implement in Java a UNIX-style command line interface that supports basic commands for file system navigation and text manipulation. The assignment was broken into two parts, which were due at separate times, the second part building on the first. For part one, we were asked to implement the command line interface with sequential processing of commands. For part two, we were asked to modify the project to support concurrent processing of commands as well as background processes. Only the final solution to part two is shown here. The assignment instructions are available as PDFs. Classes that are starter code are indicated as such. All tests were provided.
+**Team Members:** William Edgecomb, Dimokritos, 
 
-**NOTE**: This repository is private at the request of the professor. Those who wish to view my private repositories I am making collaborators. However I (William Edgecomb) am the sole author of the assignment solution. Please do not make any modifications to this repository.
+**Description**: Our task was to write a series of Hadoop MapReduce jobs to process a 46 GB wikipedia dump file using one of Brandeis University's multi-machine clusters. The input file contains wikipedia files in raw XML, and we filtered the file for those articles that match a name in the list of names that comprise a resource file called 'people.txt'. Then we constructed an articles-to-lemmas Sequence File in which the title of each article is associated with a list of \<lemma, count\> pairs such that each lemma appears count times within its associated article. In the process each article is cleaned of xml formatting, tokenized, lemmatized, and removed of stopwords. Then from the articles-to-lemmas index, we construct a lemmas-to-articles Sequence File in which each lemma is associated with a list of \<article, count\> pairs such that each article contains count instances of the associated lemma. These two ouputted files, the articles-to-lemma index and the lemmas-to-articles index are then used in part 2 of the assignment (https://github.com/wedgec/wikipedia-profession-classifier-part2), where we train and evaluate a naive Bayesian model for classifying professions based on a wikipedia article's content. For a more complete description and discussion of work for part 1, please refer to our report PDF. See also the assignment instructions. 
