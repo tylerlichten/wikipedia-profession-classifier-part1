@@ -1,3 +1,5 @@
+//The following code was provided:
+
 package utilHadoop05;
 
 import java.io.DataInputStream;

@@ -20,9 +20,9 @@ import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
 import utilHadoop05.StringIntegerList;
 
 /**
- * This class is for building the Lemma Article Index (part 2.3.1 of Assignment 1) from a Wikipedia file
+ * This class is for building the Lemma Article Index (part 2.3.1 of assignment) from a Wikipedia file
  * that has been filtered for articles whose titles match one of the names in people.txt. Note that
- * tokenization, cleaning, and lemmatization (part 2.2 of Assignment 1) are performed here as part of the
+ * tokenization, cleaning, and lemmatization (part 2.2) are performed here as part of the
  * map function. Also note that only the map function of map-reduce is required. Output is of the
  * form article_Title, List<lemma, count>, where count is the number of times that the given lemma appears
  * in the article. Each article's sub-index gets its own line in the output.

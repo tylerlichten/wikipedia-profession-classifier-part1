@@ -1,3 +1,5 @@
+//The following code was provided:
+
 package utilHadoop05;
 
 import java.io.DataInput;
@@ -13,6 +15,8 @@ import java.util.regex.Pattern;
 
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableUtils;
+
+//The following code was provided:
 
 public class StringIntegerList implements Writable {
 	public static class StringInteger implements Writable {

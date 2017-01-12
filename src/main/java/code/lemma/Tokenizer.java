@@ -19,6 +19,11 @@ import edu.stanford.nlp.util.CoreMap;
 
 import org.apache.commons.io.FileUtils;
 
+/**
+ * This class performs tokenization, cleaning, and lemmatization (part 2.2 of assignment) of articles
+ * as part of the building of the lemma index.
+ */
+
 public class Tokenizer {
 
     protected StanfordCoreNLP pipeline;

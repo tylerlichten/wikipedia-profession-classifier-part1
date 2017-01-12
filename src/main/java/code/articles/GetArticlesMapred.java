@@ -21,7 +21,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 import edu.umd.cloud9.collection.wikipedia.WikipediaPage;
 
 /**
- * This class is used for Section A of assignment 1. You are supposed to
+ * This class is used for Section A of the Assignment. You are supposed to
  * implement a main method that has first argument to be the dump wikipedia
  * input filename , and second argument being an output filename that only
  * contains articles of people as mentioned in the people auxiliary file.

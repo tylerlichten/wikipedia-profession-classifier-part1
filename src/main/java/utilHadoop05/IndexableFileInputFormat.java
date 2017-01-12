@@ -1,3 +1,5 @@
+//The following code was provided:
+
 /*
  * Cloud9: A MapReduce Library for Hadoop
  * 

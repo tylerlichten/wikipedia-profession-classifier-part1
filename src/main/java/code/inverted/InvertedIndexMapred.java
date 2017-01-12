@@ -9,7 +9,6 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.KeyValueTextInputFormat;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -22,7 +21,7 @@ import utilHadoop05.StringIntegerList;
 import utilHadoop05.StringIntegerList.StringInteger;
 
 /**
- * This class is used for Section 2.3.2 of Assignment 1. It takes the Article
+ * This class is used for Section 2.3.2 of the assignment. It takes the Article
  * Lemma Index as input, and runs a map-reduce job to build from it an inverted
  * index. Output form is: lemma List<article_Title, count> where count is
  * the number of times that the given lemma appears in the article. Each lemma's
