@@ -4,8 +4,8 @@
 **School:** Brandeis University  
 **Course:** COSI 129a: Introduction to Big Data Analysis  
 **Professors:** Marcus Verhagen, James Pustejovsky, Pengyu Hong, Liuba Shrira  
-**Head TA:** Tuan Do
-**Semester:** Fall 2016
+**Head TA:** Tuan Do  
+**Semester:** Fall 2016  
 
 **Team Members:** William Edgecomb, Dimokritos, 
 
